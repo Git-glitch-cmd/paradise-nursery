@@ -29,7 +29,8 @@ function LandingPage() {
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+     <BrowserRouter basename="/paradise-nursery">
+
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
