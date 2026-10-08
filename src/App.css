@@ -1,0 +1,62 @@
+/* ===== General ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f1f8e9; color: #333; }
+
+/* ===== Landing page - background image ===== */
+.landing {
+  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.landing-content { background: rgba(255,255,255,0.88); padding: 50px 60px; border-radius: 12px; max-width: 600px; }
+.landing-content h1 { font-size: 52px; color: #1b5e20; margin-bottom: 16px; }
+.landing-content p { font-size: 18px; color: #444; margin-bottom: 28px; }
+.get-started-btn { background: #2e7d32; color: #fff; border: none; padding: 14px 42px; font-size: 18px; border-radius: 8px; cursor: pointer; }
+.get-started-btn:hover { background: #1b5e20; }
+
+/* ===== Navbar ===== */
+.navbar { display: flex; align-items: center; justify-content: space-between; background: #1b5e20; padding: 14px 28px; }
+.navbar .logo { color: #fff; font-size: 22px; font-weight: bold; }
+.navbar .nav-links a { color: #fff; text-decoration: none; margin: 0 14px; font-size: 16px; }
+.navbar .nav-links a:hover { color: #c8e6c9; }
+.cart-count { background: #ff9800; color: #fff; border-radius: 50%; padding: 2px 8px; font-size: 13px; margin-left: 6px; }
+
+/* ===== Product listing ===== */
+.plants-page { padding: 30px; }
+.category { margin-bottom: 40px; }
+.category h2 { color: #1b5e20; margin-bottom: 16px; border-bottom: 2px solid #a5d6a7; padding-bottom: 8px; }
+.plant-grid { display: flex; flex-wrap: wrap; gap: 20px; }
+.plant-card { background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); width: 220px; overflow: hidden; text-align: center; padding-bottom: 16px; }
+.plant-card img { width: 100%; height: 180px; object-fit: cover; }
+.plant-card h3 { margin: 12px 0 4px; font-size: 17px; }
+.plant-card .price { color: #2e7d32; font-weight: bold; margin-bottom: 10px; }
+.add-btn { background: #2e7d32; color: #fff; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; }
+.add-btn:disabled { background: #9e9e9e; cursor: not-allowed; }
+
+/* ===== Cart page ===== */
+.cart-page { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+.cart-page h1 { color: #1b5e20; margin-bottom: 20px; }
+.cart-item { display: flex; align-items: center; gap: 16px; background: #fff; border-radius: 10px; padding: 14px; margin-bottom: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+.cart-item img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; }
+.cart-item .info { flex: 1; }
+.cart-item .info h3 { margin-bottom: 4px; }
+.qty-controls { display: flex; align-items: center; gap: 10px; }
+.qty-controls button { width: 30px; height: 30px; border: 1px solid #ccc; background: #fff; border-radius: 4px; cursor: pointer; font-size: 16px; }
+.delete-btn { background: #e53935; color: #fff; border: none; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
+.cart-total { text-align: right; font-size: 20px; font-weight: bold; margin: 20px 0; color: #1b5e20; }
+.cart-actions { display: flex; gap: 12px; justify-content: flex-end; }
+.checkout-btn { background: #2e7d32; color: #fff; border: none; padding: 12px 28px; border-radius: 8px; cursor: pointer; font-size: 16px; }
+.continue-btn { background: #757575; color: #fff; border: none; padding: 12px 28px; border-radius: 8px; cursor: pointer; font-size: 16px; }
+
+/* ===== About page ===== */
+.about-container { max-width: 800px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.about-container h1 { color: #1b5e20; margin-bottom: 16px; }
+.about-container h2 { color: #2e7d32; margin: 20px 0 10px; }
+.about-container p, .about-container li { line-height: 1.7; margin-bottom: 8px; }
+.about-container ul { padding-left: 20px; }
+.shop-btn { background: #2e7d32; color: #fff; border: none; padding: 12px 30px; border-radius: 8px; cursor: pointer; font-size: 16px; margin-top: 16px; }
