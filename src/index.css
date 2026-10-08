@@ -1,0 +1,8 @@
+/* basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f8e9;
+}
+a { text-decoration: none; }
+.plant-card .desc { color: #666; font-size: 13px; padding: 0 12px; margin-bottom: 10px; }
